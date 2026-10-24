@@ -22,10 +22,13 @@ echo $PATH - Shows the folders the shell searches.
 
 A command is made up of three parts:
 
-ls -a /etc
-│   │   └── argument: what the command acts on
-│   └────── option: changes how it behaves (starts with -)
-└────────── command
+ls  -a  /etc
+│   │   └─ argument
+│   └───── option
+└───────── command
+ls - the command
+-a - an option, which changes how the command behaves (starts with -)
+/etc - the argument, what the command acts on
 
 Commands, options and file names are case-sensitive. man <command> opens the manual for any command, which is the reliable way to check an option rather than guessing.
 
